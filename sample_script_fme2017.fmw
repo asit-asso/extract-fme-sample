@@ -8,26 +8,26 @@
 #    "C:\Program Files\FME2017\fme.exe" C:\projets\extract-fme-sample\sample_script_fme2017.fmw
 #          --Perimeter "POLYGON((6.62109005603303 46.51536036165384,6.623120852165147 46.51549642732441,6.624988144606661 46.514808141964856,6.631069256716269 46.51335375210718,6.633663816944302 46.51500498298585,6.6346635513963355 46.5174410136014,6.634317903072555 46.51965159759916,6.630126770513636 46.520175062789534,6.624571816554757 46.52168716079147,6.621892888161173 46.52173537632152,6.621992478963257 46.52031920938455,6.617510362580848 46.51939624209985,6.617601866780929 46.518519785202706,6.6183731545887765 46.51793162269317,6.618552647567806 46.51640808253532,6.62109005603303 46.51536036165384))"
 #          --Product "6f5afa6b-7f0a-ec54-a9a7-44f004d6edda"
-#          --FolderOut "C:\temp\_extract\_dev_temp"
+#          --FolderOut "C:\temp\_extract\output"
 #          --Parameters "{"FORMAT":"DXF","PROJECTION":"SWITZERLAND","SELECTION":"PASS_THROUGH","GROUPMENT":"YES","RAISON":"AVARIE","Communes":"","REMARK":"Parcelle N°3658 à Clarens \u0022Montreux\u0022"}"
-#          --OrderLabel "259547"
+#          --OrderLabel "259546"
 #          --Request "365"
 #          --Client "2edc1a50-4837-4c44-1519-3ebc85f14588"
 #          --Organism "4a142a5d-16bf-84d4-111f-57d76c834493"
-#          --DestDataset_REALDWG "C:\temp\output.dxf"
+#          --DestDataset_ACAD "C:\temp\_extract\output/259546.dxf"
 #    
 #    
 #!   PYTHON_COMPATIBILITY="27"
-#!   FME_DOCUMENT_PRIORGUID="2364a6fa-2a22-40ad-9bc2-d03989123441,f9fc0419-b5be-4075-8e03-b6cf661cfd93,c9c0d33d-8556-4c30-b619-c28cb1c47510,5e4ad448-0306-474b-9a47-46c3c01f1c78,d11cf017-aa04-4da6-894f-c9d566ae16e2,4c4495a6-83ca-45d2-a857-8c0df4ec6cf0,e7178b62-fc89-40f8-b1f0-3da57f137a7e,fa7fc2a1-c46e-40cb-95b6-ed80b913dfec,2aa571a4-cec8-4ef1-a748-ff192d652f29,1af59733-cbf7-4152-b505-c93c12a7b875,906f5bcc-37c6-4941-bec9-df56b9016941,3c9180d3-bca8-4c8e-b13d-0173b89ef6a5,3d809aa3-4afb-4d3e-a025-8828ff11f12c,ad71d7c6-e955-4d66-be48-e1de9ef6fc0a,65f058a3-0d07-4037-b4af-d92d1d6a1c05,7bbd1fa0-7374-4f1a-84cb-fe9eccedab01,643b9cf0-552a-4240-9392-9d6b57b6f6a0,a5da2ad1-c9aa-4592-aee5-8048b3d0d5e6,e9ba4926-e1f7-454a-bc88-3fb9e4f9390a,9e339d9f-c07b-4ca7-b33f-dddc0d270437,2d46072d-d9dc-466a-b31b-92ff47e90cce,2213ff9a-61c1-4c2b-a6b9-db9514d080f8,fa7e4b4f-faa9-4c4a-b33a-195414e63283"
+#!   FME_DOCUMENT_PRIORGUID="2364a6fa-2a22-40ad-9bc2-d03989123441,f9fc0419-b5be-4075-8e03-b6cf661cfd93,c9c0d33d-8556-4c30-b619-c28cb1c47510,5e4ad448-0306-474b-9a47-46c3c01f1c78,d11cf017-aa04-4da6-894f-c9d566ae16e2,4c4495a6-83ca-45d2-a857-8c0df4ec6cf0,e7178b62-fc89-40f8-b1f0-3da57f137a7e,fa7fc2a1-c46e-40cb-95b6-ed80b913dfec,2aa571a4-cec8-4ef1-a748-ff192d652f29,1af59733-cbf7-4152-b505-c93c12a7b875,906f5bcc-37c6-4941-bec9-df56b9016941,3c9180d3-bca8-4c8e-b13d-0173b89ef6a5,3d809aa3-4afb-4d3e-a025-8828ff11f12c,ad71d7c6-e955-4d66-be48-e1de9ef6fc0a,65f058a3-0d07-4037-b4af-d92d1d6a1c05,7bbd1fa0-7374-4f1a-84cb-fe9eccedab01,643b9cf0-552a-4240-9392-9d6b57b6f6a0,a5da2ad1-c9aa-4592-aee5-8048b3d0d5e6,e9ba4926-e1f7-454a-bc88-3fb9e4f9390a,9e339d9f-c07b-4ca7-b33f-dddc0d270437,2d46072d-d9dc-466a-b31b-92ff47e90cce,2213ff9a-61c1-4c2b-a6b9-db9514d080f8,fa7e4b4f-faa9-4c4a-b33a-195414e63283,6ddc3f98-847c-46fb-b90f-7ab4028096ce"
 #!   MAX_LOG_FEATURES="200"
-#!   ZOOM_SCALE="44"
+#!   ZOOM_SCALE="70"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.2.1 (20180117 - Build 17725 - WIN64)"
 #!   FME_REPROJECTION_ENGINE="FME"
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   TERMINATE_REJECTED="YES"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   DOC_TOP_LEFT="-359.275 -1781.05"
-#!   LAST_SAVE_DATE="2019-12-18T16:18:46"
+#!   LAST_SAVE_DATE="2019-12-18T16:38:40"
 #!   DESTINATION="NONE"
 #!   SOURCE_ROUTING_FILE=""
 #!   CATEGORY=""
@@ -42,7 +42,7 @@
 #!   BEGIN_TCL=""
 #!   TITLE=""
 #!   FME_BUILD_NUM="17725"
-#!   FME_DOCUMENT_GUID="6ddc3f98-847c-46fb-b90f-7ab4028096ce"
+#!   FME_DOCUMENT_GUID="2389102a-6abe-4971-ba72-20582ccde899"
 #!   END_TCL=""
 #!   END_PYTHON=""
 #!   IGNORE_READER_FAILURE="No"
@@ -56,11 +56,11 @@
 #!   PASSWORD=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   SOURCE="NONE"
-#!   DOC_EXTENTS="8226.04 3013.65"
+#!   DOC_EXTENTS="8786.11 3013.65"
 #!   DESTINATION_ROUTING_FILE=""
 #!   HISTORY=""
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   VIEW_POSITION="-674.723 2073.88"
+#!   VIEW_POSITION="2754.49 1535.73"
 #!   MARKDOWN_DESCRIPTION=""
 #! >
 #! <DATASETS>
@@ -123,7 +123,7 @@
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="FILEGDB"
-#!   DATASET="$(FolderOut)\output"
+#!   DATASET="$(FolderOut)"
 #!   KEYWORD="FILEGDB_1"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="64"
@@ -169,9 +169,9 @@
 #! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
-#!   FORMAT="REALDWG"
-#!   DATASET="$(DestDataset_REALDWG)"
-#!   KEYWORD="REALDWG_1"
+#!   FORMAT="ACAD"
+#!   DATASET="$(DestDataset_ACAD)"
+#!   KEYWORD="ACAD_1"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="60"
 #!   ATTR_CASE="ANY"
@@ -179,7 +179,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="autocad_color 10 autocad_linetype CONTINUOUS autocad_layer_frozen no autocad_layer_hidden no autocad_layer_locked no autocad_layer_on yes autocad_layer_plottable yes autocad_layer_desc &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="autocad_version char(32) autocad_edge_1 char(10) fme_attrib_info{}.generation char(25) autocad_mpolygon_gradient_one_color_mode number(5,0) autocad_ucs_xangle number(31,15) fme_attrib_info{}.color.red number(31,15) autocad_shape_width number(31,15) autocad_original_text_size number(31,15) autocad_group_name char(50) autocad_mpolygon_gradient_name char(32) autocad_shape_vertical char(6) autocad_mpolygon_gradient_color2 char(50) autocad_hatch_gradient_shift number(31,15) autocad_end_tangent_x number(31,15) fme_primary_axis number(31,15) autocad_raster_display_opt_show logical autocad_defpt2.y number(31,15) autocad_raster_clip_points{}.y number(31,15) autocad_hatch_pattern_name char(32) autocad_dim_flag number(5,0) autocad_base_x number(31,15) autocad_arc_defpt.y number(31,15) autocad_mpolygon_gradient_type number(6,0) fme_start_angle number(31,15) autocad_text_z_pos number(31,15) autocad_start_tangent_x number(31,15) autocad_extrusion_y number(31,15) autocad_control_x string autocad_zscale number(31,15) autocad_hatch_complex_mode number(5,0) autocad_true_color char(50) fme_rotation number(31,15) autocad_dim_clone_inspection_point.x number(31,15) autocad_shape_index number(31,15) autocad_anno_handle char(50) autocad_line_defpoint.y number(31,15) autocad_text_y_pos number(31,15) autocad_insunits number(6,0) autocad_text_midpoint.z number(31,15) autocad_flag number(6,0) autocad_edge_4 char(10) autocad_txt_offset_x number(31,15) autocad_text_midpoint.x number(31,15) fme_attrib_info{}.align_x number(31,15) autocad_txt_offset_z number(31,15) autocad_text_rotation number(31,15) autocad_hatch_loop{}.autocad_hatch_bulge{} number(31,15) autocad_dim_arrowhead_pt_2.y number(31,15) fme_attrib_info{}.field_size number(5,0) autocad_fit_y string autocad_group_anonymous char(50) autocad_width number(31,15) autocad_start_angle number(31,15) autocad_defpt2.x number(31,15) autocad_mline_type char(50) autocad_defpt3.x number(31,15) autocad_text_midpoint.y number(31,15) autocad_hatch_gradient_one_color_mode number(5,0) autocad_longitude number(31,15) fme_basename char(50) autocad_original_rotation number(31,15) autocad_original_entity_type char(50) autocad_fill_color number(6,0) autocad_mpolygon_gradient_angle number(31,15) autocad_xref_type char(10) autocad_shape_name char(32) autocad_dimension_attach_point number(5,0) autocad_raster_clip_inverted logical autocad_hatch_gradient_color2 char(50) autocad_txt_offset_y number(31,15) autocad_start_tangent_z number(31,15) autocad_arrow_head_on logical autocad_linetype_generation number(1,0) fme_text_string char(50) autocad_polyflag char(50) autocad_defpt4.x number(31,15) autocad_end_width number(31,15) fme_dataset char(50) autocad_latitude number(31,15) autocad_arc_defpt.x number(31,15) fme_attrib_info{}.isVisible char(6) autocad_block_name char(50) autocad_extrusion_x number(31,15) autocad_raster_clip_points{}.z number(31,15) autocad_defpt3.y number(31,15) autocad_line_defpoint.x number(31,15) autocad_hatch_gradient_name char(32) autocad_box_width number(31,15) autocad_defpt3.z number(31,15) autocad_oblique number(31,15) autocad_end_tangent_y number(31,15) autocad_hatch_origin_point_y number(31,15) autocad_entity_handle char(50) autocad_hatch_gradient_color1 char(50) autocad_bulge char(50) autocad_periodic_spline number(6,0) autocad_num_lines number(5,0) autocad_knot_tolerance number(31,15) autocad_defpt2.z number(31,15) autocad_group_num_entities char(50) autocad_degree number(31,15) fme_attrib_info{}.field_name char(513) fme_attrib_info{}.height number(31,15) autocad_xrecord_data_list{} char(50) autocad_mpolygon_object_type number(6,0) autocad_yscale number(31,15) autocad_xscale number(31,15) autocad_angbase number(31,15) autocad_mpolygon_pixel_size number(31,15) autocad_dim_arrowhead_pt_1.y number(31,15) autocad_group_description char(50) fme_feature_type char(50) autocad_aunits number(6,0) autocad_base_z number(31,15) fme_sweep_angle number(31,15) autocad_generation char(30) fme_text_size number(31,15) autocad_mtext_ref_rect_width number(31,15) autocad_dim_clone_inspection_point.z number(31,15) fme_attrib_info{}.location_y number(31,15) autocad_raster_brightness number(4,0) autocad_xref_name char(50) autocad_linetype_scale number(31,15) autocad_lunits number(6,0) autocad_size_z number(31,15) autocad_raster_display_opt_clip logical autocad_hatch_pattern_scale number(31,15) autocad_raster_clip_points{}.x number(31,15) autocad_store_bulges_mode logical autocad_text_size number(31,15) autocad_rotation number(31,15) fme_attrib_info{}.color.source char(10) autocad_mpolygon_pattern_double number(5,0) autocad_mpolygon_origin_point_y number(31,15) fme_attrib_info{}.field_value char(2049) autocad_mpolygon_pattern_space number(31,15) autocad_group_selectable char(50) autocad_mpolygon_pattern_scale number(31,15) autocad_linetype char(50) autocad_mpolygon_origin_point_x number(31,15) fme_attrib_info{}.oblique number(31,15) fme_attrib_info{}.width_factor number(31,15) autocad_defpt4.z number(31,15) autocad_xref_path string autocad_control_z string autocad_line_defpoint.z number(31,15) autocad_extended_data_list{} char(50) autocad_shape_rotation number(31,15) fme_attrib_info{}.layer char(512) autocad_mline_style char(50) autocad_raster_original_transparency char(50) fme_attrib_info{}.color.green number(31,15) fme_type char(50) autocad_luprec number(6,0) autocad_end_tangent_z number(31,15) autocad_hatch_pattern_angle number(31,15) autocad_mtext_text_height number(31,15) autocad_original_position_z number(31,15) autocad_alignment_z number(31,15) autocad_lineweight char(10) autocad_edge_2 char(10) autocad_attribute_display char(50) autocad_hatch_pattern_type number(6,0) fme_attrib_info{}.attribute_flag char(2) autocad_original_text_string string autocad_base_y number(31,15) autocad_secondary_axis number(31,15) autocad_auprec number(6,0) autocad_closed_spline number(6,0) autocad_control_weights string autocad_size_x number(31,15) autocad_number_rows number(5,0) autocad_fillmode logical autocad_start_tangent_y number(31,15) autocad_original_entity char(50) autocad_raster_display_opt_show_unaligned logical fme_attrib_info{}.align_y number(31,15) autocad_color number(6,0) autocad_linespace_factor number(31,15) autocad_hatch_gradient_type number(6,0) autocad_alignment_x number(31,15) fme_attrib_info{}.rotation number(31,15) autocad_projectname char(32) autocad_hatch_gradient_angle number(31,15) autocad_fit_x string fme_fill_color char(50) autocad_scale number(31,15) autocad_number_columns number(5,0) autocad_path_type char(10) autocad_dim_arrowhead_pt_1.x number(31,15) autocad_dimension_style_name char(50) fme_attrib_info{}.location_x number(31,15) autocad_original_layer char(50) autocad_hatch_loop{}.autocad_hatch_bulges_present number(5,0) autocad_start_width number(31,15) fme_color char(50) autocad_entity char(50) autocad_text_string char(50) autocad_mpolygon_style number(6,0) autocad_proxygraphics number(6,0) autocad_attmode number(6,0) autocad_justification char(50) fme_geometry fme_char(50) autocad_hatch_origin_point_x number(31,15) autocad_mpolygon_pattern_name char(32) autocad_sweep_angle number(31,15) autocad_attributes_follow logical autocad_mpolygon_pattern_angle number(31,15) autocad_raster_filename string autocad_textpict char(50) autocad_hatch_pattern_double number(5,0) autocad_rational_spline number(6,0) autocad_knots string autocad_dim_clone_inspection_point.y number(31,15) autocad_raster_contrast number(4,0) autocad_width_factor number(31,15) autocad_defpt4.y number(31,15) fme_attrib_info{} char(50) autocad_mpolygon_gradient_shift number(31,15) autocad_original_position_y number(31,15) autocad_hatch_object_type number(6,0) autocad_dim_arrowhead_pt_2.x number(31,15) autocad_hatch_shade_tint_value number(31,15) autocad_num_fit_pts number(11,0) autocad_mtext_string char(50) autocad_hatch_pixel_size number(31,15) autocad_raster_fade number(4,0) autocad_num_cntl_pts number(11,0) autocad_visible_attributes{} char(50) autocad_fit_z string autocad_invisible_attributes{} char(50) autocad_fit_tolerance number(31,15) autocad_primary_axis number(31,15) autocad_true_type_font char(50) autocad_hatch_style number(6,0) autocad_size_y number(31,15) autocad_box_height number(31,15) autocad_group_accessible char(50) autocad_num_knots number(11,0) autocad_shape_height number(31,15) autocad_num_verts number(5,0) autocad_mpolygon_pattern_type number(6,0) autocad_knot_param char(10) autocad_edge_3 char(10) autocad_hatch_pattern_space number(31,15) autocad_alignment_y number(31,15) autocad_angdir logical autocad_thickness number(31,15) autocad_big_fontname char(65) autocad_elevation number(31,15) fme_attrib_info{}.style char(512) fme_secondary_axis number(31,15) fme_attrib_info{}.location_z number(31,15) autocad_shape_filename char(65) fme_attrib_info{}.justification char(25) autocad_attach_point char(50) fme_attrib_info{}.color.blue number(31,15) autocad_dimension_type char(50) autocad_layer char(50) autocad_original_position_x number(31,15) autocad_mpolygon_shade_tint_value number(31,15) autocad_anno_type char(30) autocad_row_distance number(31,15) autocad_mpolygon_gradient_color1 char(50) autocad_text_x_pos number(31,15) autocad_raster_transparency number(4,0) autocad_control_y string autocad_raster_display_opt_transparent logical autocad_arc_defpt.z number(31,15) autocad_extrusion_z number(31,15)"
+#!   EXPOSABLE_ATTRS="autocad_version char(32) autocad_edge_1 char(10) fme_attrib_info{}.generation char(25) autocad_mpolygon_gradient_one_color_mode number(5,0) autocad_ucs_xangle number(31,15) fme_attrib_info{}.color.red number(31,15) autocad_shape_width number(31,15) autocad_original_text_size number(31,15) autocad_group_name char(50) autocad_mpolygon_gradient_name char(32) autocad_shape_vertical char(6) autocad_mpolygon_gradient_color2 char(50) autocad_hatch_gradient_shift number(31,15) autocad_end_tangent_x number(31,15) fme_primary_axis number(31,15) autocad_raster_display_opt_show logical autocad_defpt2.y number(31,15) autocad_raster_clip_points{}.y number(31,15) autocad_hatch_pattern_name char(32) autocad_dim_flag number(5,0) autocad_base_x number(31,15) autocad_arc_defpt.y number(31,15) autocad_mpolygon_gradient_type number(6,0) fme_start_angle number(31,15) autocad_text_z_pos number(31,15) autocad_start_tangent_x number(31,15) autocad_extrusion_y number(31,15) autocad_control_x string autocad_zscale number(31,15) autocad_hatch_complex_mode number(5,0) autocad_true_color char(50) fme_rotation number(31,15) autocad_dim_clone_inspection_point.x number(31,15) autocad_shape_index number(31,15) autocad_anno_handle char(50) autocad_line_defpoint.y number(31,15) autocad_text_y_pos number(31,15) autocad_insunits number(6,0) autocad_text_midpoint.z number(31,15) autocad_flag number(6,0) autocad_edge_4 char(10) autocad_txt_offset_x number(31,15) autocad_text_midpoint.x number(31,15) fme_attrib_info{}.align_x number(31,15) autocad_txt_offset_z number(31,15) autocad_text_rotation number(31,15) autocad_hatch_loop{}.autocad_hatch_bulge{} number(31,15) autocad_dim_arrowhead_pt_2.y number(31,15) fme_attrib_info{}.field_size number(5,0) autocad_fit_y string autocad_group_anonymous char(50) autocad_width number(31,15) autocad_start_angle number(31,15) autocad_defpt2.x number(31,15) autocad_mline_type char(50) autocad_defpt3.x number(31,15) autocad_text_midpoint.y number(31,15) autocad_hatch_gradient_one_color_mode number(5,0) autocad_longitude number(31,15) fme_basename char(50) autocad_original_rotation number(31,15) autocad_original_entity_type char(50) autocad_fill_color number(6,0) autocad_mpolygon_gradient_angle number(31,15) autocad_xref_type char(10) autocad_shape_name char(32) autocad_dimension_attach_point number(5,0) autocad_raster_clip_inverted logical autocad_block_insert_z number(31,15) autocad_hatch_gradient_color2 char(50) autocad_txt_offset_y number(31,15) autocad_start_tangent_z number(31,15) autocad_arrow_head_on logical autocad_linetype_generation number(1,0) fme_text_string char(50) autocad_polyflag char(50) autocad_defpt4.x number(31,15) autocad_end_width number(31,15) fme_dataset char(50) autocad_latitude number(31,15) autocad_arc_defpt.x number(31,15) autocad_block_insert_y number(31,15) fme_attrib_info{}.isVisible char(6) autocad_block_name char(50) autocad_extrusion_x number(31,15) autocad_raster_clip_points{}.z number(31,15) autocad_defpt3.y number(31,15) autocad_line_defpoint.x number(31,15) autocad_hatch_gradient_name char(32) autocad_box_width number(31,15) autocad_defpt3.z number(31,15) autocad_oblique number(31,15) autocad_end_tangent_y number(31,15) autocad_normal_y number(31,15) autocad_hatch_origin_point_y number(31,15) autocad_entity_handle char(50) autocad_hatch_gradient_color1 char(50) autocad_bulge char(50) autocad_periodic_spline number(6,0) autocad_num_lines number(5,0) autocad_knot_tolerance number(31,15) autocad_defpt2.z number(31,15) autocad_group_num_entities char(50) autocad_degree number(31,15) fme_attrib_info{}.field_name char(513) fme_attrib_info{}.height number(31,15) autocad_xrecord_data_list{} char(50) autocad_normal_z number(31,15) autocad_mpolygon_object_type number(6,0) autocad_yscale number(31,15) autocad_xscale number(31,15) autocad_angbase number(31,15) autocad_mpolygon_pixel_size number(31,15) autocad_dim_arrowhead_pt_1.y number(31,15) autocad_group_description char(50) fme_feature_type char(50) autocad_aunits number(6,0) autocad_base_z number(31,15) fme_sweep_angle number(31,15) autocad_generation char(30) fme_text_size number(31,15) autocad_mtext_ref_rect_width number(31,15) autocad_dim_clone_inspection_point.z number(31,15) fme_attrib_info{}.location_y number(31,15) autocad_raster_brightness number(4,0) autocad_xref_name char(50) autocad_linetype_scale number(31,15) autocad_lunits number(6,0) autocad_size_z number(31,15) autocad_raster_display_opt_clip logical autocad_hatch_pattern_scale number(31,15) autocad_block_insert_x number(31,15) autocad_raster_clip_points{}.x number(31,15) autocad_store_bulges_mode logical autocad_text_size number(31,15) autocad_rotation number(31,15) fme_attrib_info{}.color.source char(10) autocad_mpolygon_pattern_double number(5,0) autocad_mpolygon_origin_point_y number(31,15) fme_attrib_info{}.field_value char(2049) autocad_mpolygon_pattern_space number(31,15) autocad_group_selectable char(50) autocad_mpolygon_pattern_scale number(31,15) autocad_linetype char(50) autocad_mpolygon_origin_point_x number(31,15) fme_attrib_info{}.oblique number(31,15) fme_attrib_info{}.width_factor number(31,15) autocad_defpt4.z number(31,15) autocad_xref_path string autocad_control_z string autocad_line_defpoint.z number(31,15) autocad_extended_data_list{} char(50) autocad_shape_rotation number(31,15) fme_attrib_info{}.layer char(512) autocad_mline_style char(50) autocad_raster_original_transparency char(50) fme_attrib_info{}.color.green number(31,15) fme_type char(50) autocad_mpolygon_pattern_color char(50) autocad_luprec number(6,0) autocad_end_tangent_z number(31,15) autocad_hatch_pattern_angle number(31,15) autocad_mtext_text_height number(31,15) autocad_original_position_z number(31,15) autocad_alignment_z number(31,15) autocad_lineweight char(10) autocad_edge_2 char(10) autocad_attribute_display char(50) autocad_hatch_pattern_type number(6,0) fme_attrib_info{}.attribute_flag char(2) autocad_original_text_string string autocad_base_y number(31,15) autocad_secondary_axis number(31,15) autocad_auprec number(6,0) autocad_closed_spline number(6,0) autocad_control_weights string autocad_size_x number(31,15) autocad_number_rows number(5,0) autocad_fillmode logical autocad_start_tangent_y number(31,15) autocad_original_entity char(50) autocad_raster_display_opt_show_unaligned logical fme_attrib_info{}.align_y number(31,15) autocad_color number(6,0) autocad_linespace_factor number(31,15) autocad_hatch_gradient_type number(6,0) autocad_alignment_x number(31,15) fme_attrib_info{}.rotation number(31,15) autocad_projectname char(32) autocad_hatch_gradient_angle number(31,15) autocad_fit_x string fme_fill_color char(50) autocad_scale number(31,15) autocad_number_columns number(5,0) autocad_path_type char(10) autocad_dim_arrowhead_pt_1.x number(31,15) autocad_dimension_style_name char(50) fme_attrib_info{}.location_x number(31,15) autocad_original_layer char(50) autocad_hatch_loop{}.autocad_hatch_bulges_present number(5,0) autocad_start_width number(31,15) fme_color char(50) autocad_entity char(50) autocad_text_string char(50) autocad_mpolygon_style number(6,0) autocad_proxygraphics number(6,0) autocad_attmode number(6,0) autocad_justification char(50) fme_geometry fme_char(50) autocad_hatch_origin_point_x number(31,15) autocad_mpolygon_pattern_name char(32) autocad_sweep_angle number(31,15) autocad_attributes_follow logical autocad_mpolygon_pattern_angle number(31,15) autocad_raster_filename string autocad_textpict char(50) autocad_hatch_pattern_double number(5,0) autocad_rational_spline number(6,0) autocad_knots string autocad_dim_clone_inspection_point.y number(31,15) autocad_raster_contrast number(4,0) autocad_width_factor number(31,15) autocad_defpt4.y number(31,15) fme_attrib_info{} char(50) autocad_mpolygon_gradient_shift number(31,15) autocad_original_position_y number(31,15) autocad_hatch_object_type number(6,0) autocad_dim_arrowhead_pt_2.x number(31,15) autocad_hatch_shade_tint_value number(31,15) autocad_num_fit_pts number(11,0) autocad_mtext_string char(50) autocad_hatch_pixel_size number(31,15) autocad_raster_fade number(4,0) autocad_num_cntl_pts number(11,0) autocad_visible_attributes{} char(50) autocad_fit_z string autocad_invisible_attributes{} char(50) autocad_fit_tolerance number(31,15) autocad_primary_axis number(31,15) autocad_true_type_font char(50) autocad_hatch_style number(6,0) autocad_size_y number(31,15) autocad_box_height number(31,15) autocad_group_accessible char(50) autocad_num_knots number(11,0) autocad_shape_height number(31,15) autocad_num_verts number(5,0) autocad_mpolygon_pattern_type number(6,0) autocad_knot_param char(10) autocad_edge_3 char(10) autocad_hatch_pattern_space number(31,15) autocad_alignment_y number(31,15) autocad_angdir logical autocad_thickness number(31,15) autocad_big_fontname char(65) autocad_elevation number(31,15) fme_attrib_info{}.style char(512) fme_secondary_axis number(31,15) fme_attrib_info{}.location_z number(31,15) autocad_shape_filename char(65) fme_attrib_info{}.justification char(25) autocad_attach_point char(50) fme_attrib_info{}.color.blue number(31,15) autocad_normal_x number(31,15) autocad_dimension_type char(50) autocad_layer char(50) autocad_original_position_x number(31,15) autocad_mpolygon_shade_tint_value number(31,15) autocad_anno_type char(30) autocad_row_distance number(31,15) autocad_mpolygon_gradient_color1 char(50) autocad_text_x_pos number(31,15) autocad_raster_transparency number(4,0) autocad_control_y string autocad_raster_display_opt_transparent logical autocad_arc_defpt.z number(31,15) autocad_extrusion_z number(31,15)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP autocad_settings autocad_layer_desc%autocad_layer_appearance_group%autocad_layer_state_group Layer&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP autocad_layer_appearance_group autocad_linetype%autocad_color Appearance&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP autocad_layer_state_group autocad_layer_on%autocad_layer_frozen%autocad_layer_hidden%autocad_layer_locked%autocad_layer_plottable State&quot; &quot;&quot; &quot;GUI INTEGER autocad_color Default Color&quot; 10 &quot;GUI TEXT autocad_linetype Default Linetype&quot; CONTINUOUS &quot;GUI CHOICE autocad_layer_frozen Yes%No Frozen&quot; No &quot;GUI CHOICE autocad_layer_hidden Yes%No Hidden&quot; No &quot;GUI CHOICE autocad_layer_locked Yes%No Locked&quot; No &quot;GUI CHOICE autocad_layer_on Yes%No On&quot; Yes &quot;GUI CHOICE autocad_layer_plottable Yes%No Plottable&quot; Yes &quot;GUI OPTIONAL TEXT autocad_layer_desc Description&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -190,11 +190,11 @@
 #!   GENERATE_FME_BUILD_NUM="17725"
 #!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
-#!   FANOUT_EXPRESSION=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="ADVANCED_PARMS"
-#!   VALUE="REALDWG_OUT_DEFAULT_ATTR_STORAGE REALDWG_OUT_DEFAULT_APPLICATION REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY REALDWG_OUT_SHAPE_DIRECTORY REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX REALDWG_OUT_COORDINATE_SYSTEM_STORAGE REALDWG_OUT_APPEND_TO_TEMPLATEFILE REALDWG_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES REALDWG_OUT_PURGE REALDWG_OUT_INSERTION_SCALE_UNITS REALDWG_OUT_PREFER_DONUTS_AS_HATCHES"
+#!   VALUE="ACAD_OUT_DEFAULT_ATTR_STORAGE ACAD_OUT_DEFAULT_APPLICATION ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY ACAD_OUT_SHAPE_DIRECTORY ACAD_OUT_CREATED_BLOCK_NAME_PREFIX ACAD_OUT_AUDIT_AND_FIX ACAD_OUT_COORDINATE_SYSTEM_STORAGE ACAD_OUT_APPEND_TO_TEMPLATEFILE ACAD_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION ACAD_OUT_PURGE ACAD_OUT_INSERTION_SCALE_UNITS ACAD_OUT_WRITE_THUMBNAIL_IMAGE ACAD_OUT_PREFER_DONUTS_AS_HATCHES"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -206,7 +206,7 @@
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a name for the Autodesk AutoCAD DWG file"
+#!   VALUE="Specify a name for the DWG file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
@@ -214,7 +214,7 @@
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the Autodesk AutoCAD DWG file(s)"
+#!   VALUE="Select the DWG file(s)"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
@@ -365,139 +365,139 @@
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(20)"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(12)"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(8)"
 #!   FME_TYPE="fme_date"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_xml"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="logical"
 #!   FME_TYPE="fme_boolean"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(31,15)"
 #!   FME_TYPE="fme_real64"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(15,7)"
 #!   FME_TYPE="fme_real32"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(20,0)"
 #!   FME_TYPE="fme_int64"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(20,0)"
 #!   FME_TYPE="fme_uint64"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(11,0)"
 #!   FME_TYPE="fme_int32"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(11,0)"
 #!   FME_TYPE="fme_uint32"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(6,0)"
 #!   FME_TYPE="fme_int16"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(6,0)"
 #!   FME_TYPE="fme_uint16"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(4,0)"
 #!   FME_TYPE="fme_int8"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(4,0)"
 #!   FME_TYPE="fme_uint8"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="number(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -763,307 +763,301 @@
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_point"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_insert"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_shape"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_line"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_leader"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_xline"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_ray"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_polygon"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_trace"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_solid"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_face"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_layout"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_text"
 #!   FME_TYPE="fme_text"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_arc"
 #!   FME_TYPE="fme_arc"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_ellipse"
 #!   FME_TYPE="fme_ellipse"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_polygon"
 #!   FME_TYPE="fme_rectangle"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_polygon"
 #!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_spline"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="fme_no_map"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_attribute"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_multi_line"
 #!   FME_TYPE="fme_line"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_multi_text"
 #!   FME_TYPE="fme_text"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_attr_def"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_viewport"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_tolerance"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_dictionary"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_mline_style"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_class"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_hatch"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_mpolygon"
 #!   FME_TYPE="fme_area"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_surface"
 #!   FME_TYPE="fme_surface"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_solid3d"
 #!   FME_TYPE="fme_solid"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_raster"
 #!   FME_TYPE="fme_raster"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_xref"
 #!   FME_TYPE="fme_point"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_body"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_region"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_zombie"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_xrecord"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_leader"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_group"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_proxy"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_block"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_begin_block"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_end_block"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_block"
 #!   FME_TYPE="fme_collection"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_dimension"
 #!   FME_TYPE="fme_collection"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_dimension_def"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_info"
 #!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="autocad_od_table"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="autocad_polygon"
 #!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="fme_no_map"
 #!   FME_TYPE="fme_feature_table"
-#!   FORMAT="REALDWG"
+#!   FORMAT="ACAD"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1171,8 +1165,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="6"
 #!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="7837.5 -30.5563"
-#!   BOUNDING_RECT="7837.5 -30.5563 -1 -1"
+#!   POSITION="7833.04 -30.5563"
+#!   BOUNDING_RECT="7833.04 -30.5563 593.794 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="ESRISHAPE_1"
@@ -1200,8 +1194,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="69"
 #!   FEAT_GEOMTYPE="geodb_no_geom"
-#!   POSITION="7810.77 361.839"
-#!   BOUNDING_RECT="7810.77 361.839 -1 -1"
+#!   POSITION="7825.54 361.839"
+#!   BOUNDING_RECT="7825.54 361.839 593.794 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="FILEGDB_1"
@@ -1243,13 +1237,13 @@
 #!   FEATURE_TYPE_NAME="@Value(fme_feature_type)"
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
-#!   IDENTIFIER="53"
+#!   IDENTIFIER="83"
 #!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="7866.77 -370.011"
-#!   BOUNDING_RECT="7866.77 -370.011 -1 -1"
+#!   POSITION="7825.54 -383.674"
+#!   BOUNDING_RECT="7825.54 -383.674 593.794 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
-#!   KEYWORD="REALDWG_1"
+#!   KEYWORD="ACAD_1"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="0"
@@ -1273,7 +1267,7 @@
 #! <FMESERVER>
 #! <SERVICES>
 #! <SERVICE
-#!   NAME="fmejobsubmitter"
+#!   NAME="fmedatadownload"
 #! >
 #! <PROPERTIES>
 #! <PROPERTY
@@ -1289,12 +1283,17 @@
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
 #!   NAME="HTTP_DATASET"
-#!   VALUE="GEODATABASE_FILE_1"
+#!   VALUE=""
 #! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
 #!   NAME="NOTIFICATION_WRITER"
 #!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="ESRISHAPE_1 FILEGDB_1"
 #! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
@@ -1305,54 +1304,38 @@
 #! </SERVICE>
 #! </SERVICES>
 #! <REPOSITORY
-#!   NAME="6084_ASIT-VD_Extract"
+#!   NAME="EXTRACT"
 #! />
 #! <ITEM
-#!   NAME="sample_script_1.fmw"
+#!   NAME="sample_script_fme2017.fmw"
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
-#!   UID=":DatasetMgr_GEODATABASE_FILE_2:DestDataset_GEODATABASE_FILE_2"
-#!   VALUE="$(FolderOut)"
+#!   UID=":DatasetMgr_FILEGDB_1:DestDataset_FILEGDB_1"
+#!   VALUE="$(FolderOut)\output"
+#! />
+#! <MODIFICATION
+#!   UID=":WBParameterNode_68:DATASET"
+#!   VALUE="$(FME_MF_DIR_ENCODED)data&lt;backslash&gt;osm-geofabrik&lt;backslash&gt;*.shp"
 #! />
 #! <MODIFICATION
 #!   UID=":DatasetMgr_ESRISHAPE_1:DestDataset_ESRISHAPE_1"
 #!   VALUE="$(FolderOut)"
 #! />
 #! <MODIFICATION
-#!   UID=":DatasetMgr_GEODATABASE_FILE_2:GEODATABASE_FILE_OUT_DATASET_TEMPLATE_GEODATABASE_FILE_2"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":DatasetMgr_GEODATABASE_FILE_2:GEODATABASE_FILE_OUT_TEMPLATEFILE_GEODATABASE_FILE_2"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":WBParameterNode_11:DATASET"
-#!   VALUE="D:&lt;backslash&gt;Temp&lt;backslash&gt;FME_test&lt;backslash&gt;GDB_INPUT&lt;backslash&gt;ASIT-VD.gdb"
-#! />
-#! <MODIFICATION
-#!   UID=":GlobalParameterMgr:INPUT_GDB"
-#!   VALUE="D:\Temp\FME_test\GDB_INPUT\ASIT-VD.gdb"
-#! />
-#! <MODIFICATION
 #!   UID=":WBDoc:LOG_FILE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
-#!   VALUE=""
+#!   UID=":DatasetMgr_ACAD_1:DestDataset_ACAD_1"
+#!   VALUE="$(DestDataset_ACAD)"
 #! />
 #! <MODIFICATION
-#!   UID=":DatasetMgr_GEODATABASE_FILE_2:GEODATABASE_FILE_OUT_FFS_DUMP_FILE_GEODATABASE_FILE_2"
-#!   VALUE=""
+#!   UID=":GlobalParameterMgr:DestDataset_ACAD"
+#!   VALUE="C:\temp\_extract\_dev_temp\259547.dxf"
 #! />
 #! <MODIFICATION
-#!   UID=":DatasetMgr_GEODATABASE_FILE_1:SourceDataset_GEODATABASE_FILE_1"
-#!   VALUE="$(INPUT_GDB)"
-#! />
-#! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   UID=":DatasetMgr_ACAD_1:ACAD_OUT_SHAPE_DIRECTORY_ACAD_1"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
@@ -1360,20 +1343,8 @@
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
 #!   UID=":GlobalParameterMgr:FolderOut"
-#!   VALUE="D:\Temp\FME_test\OUTPUT"
-#! />
-#! <MODIFICATION
-#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
-#!   VALUE=""
+#!   VALUE="C:\temp\_extract\_dev_temp"
 #! />
 #! </MODIFICATIONS>
 #! </FMESERVER>
@@ -1390,7 +1361,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME FolderOut Répertoire de sortie :"
-#!   DEFAULT_VALUE="C:\temp\_extract\_dev_temp"
+#!   DEFAULT_VALUE="C:\temp\_extract\output"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1399,8 +1370,8 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_OR_ATTR OrderLabel Libellé de la commande :"
-#!   DEFAULT_VALUE="259547"
+#!   GUI_LINE="GUI TEXT OrderLabel Libellé de la commande :"
+#!   DEFAULT_VALUE="259546"
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1419,8 +1390,8 @@
 #!   IS_STAND_ALONE="true"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI FILENAME DestDataset_REALDWG DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD RealDWG File:"
-#!   DEFAULT_VALUE="C:\temp\output.dxf"
+#!   GUI_LINE="GUI FILENAME DestDataset_ACAD DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD DWG/DXF File:"
+#!   DEFAULT_VALUE="$(FolderOut)/$(OrderLabel).dxf"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1428,10 +1399,10 @@
 #! <COMMENT
 #!   IDENTIFIER="8"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Output [ESRISHAPE]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7830 165.984"
-#!   TOP_LEFT="7830 165.984"
-#!   BOTTOM_RIGHT="7829 166.984"
-#!   BOUNDING_RECT="7830 165.984 -1 -1"
+#!   POSITION="7825.54 165.984"
+#!   TOP_LEFT="7825.54 165.984"
+#!   BOTTOM_RIGHT="7824.54 166.984"
+#!   BOUNDING_RECT="7825.54 165.984 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1443,10 +1414,10 @@
 #! <COMMENT
 #!   IDENTIFIER="72"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Output : OUTPUT [FILEGDB]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7786.77 509.089"
-#!   TOP_LEFT="7786.77 509.089"
-#!   BOTTOM_RIGHT="7785.77 510.089"
-#!   BOUNDING_RECT="7786.77 509.089 -1 -1"
+#!   POSITION="7801.54 509.089"
+#!   TOP_LEFT="7801.54 509.089"
+#!   BOTTOM_RIGHT="7800.54 510.089"
+#!   BOUNDING_RECT="7801.54 509.089 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1456,19 +1427,19 @@
 #!   ANCHORED_NODE="69"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="77"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Output [REALDWG]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="7842.77 -222.761"
-#!   TOP_LEFT="7842.77 -222.761"
-#!   BOTTOM_RIGHT="7841.77 -221.761"
-#!   BOUNDING_RECT="7842.77 -222.761 -1 -1"
+#!   IDENTIFIER="53"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Output [ACAD]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="7886.36 -231.959"
+#!   TOP_LEFT="7886.36 -231.959"
+#!   BOTTOM_RIGHT="7885.36 -230.959"
+#!   BOUNDING_RECT="7886.36 -231.959 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   COLOUR="1,1,0.784314,0.196078"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="53"
+#!   ANCHORED_NODE="83"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -2335,7 +2306,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="55"
 #!   SOURCE_NODE="48"
-#!   TARGET_NODE="53"
+#!   TARGET_NODE="83"
 #!   SOURCE_PORT_DESC="fo 6 DXF"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
@@ -2346,7 +2317,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="62"
 #!   SOURCE_NODE="48"
-#!   TARGET_NODE="53"
+#!   TARGET_NODE="83"
 #!   SOURCE_PORT_DESC="fo 7 DWG"
 #!   TARGET_PORT_DESC="-1"
 #!   ENABLED="true"
@@ -2365,16 +2336,16 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
-GUI IGNORE DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_DIMENSION_GROUP_ESRISHAPE_1,ESRISHAPE_OUT_SHAPE_WRT_ADV_PARM_GROUP_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,_MEASURES_AS_Z_ESRISHAPE_1,DestDataset_FILEGDB_1,FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1,FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1,DestDataset_REALDWG_1,APPEND_TO_TEMPLATEFILE_REALDWG_1,PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_REALDWG_1,REALDWG_OUT_DEFAULT_ATTR_STORAGE_REALDWG_1,REALDWG_OUT_VERSION_REALDWG_1,REALDWG_OUT_TEMPLATEFILE_REALDWG_1,REALDWG_OUT_TEMPLATE_GROUP_REALDWG_1,REALDWG_OUT_CAD_WRT_ADV_PARM_GROUP_REALDWG_1,REALDWG_OUT_DEFAULT_APPLICATION_REALDWG_1,REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY_REALDWG_1,REALDWG_OUT_SHAPE_DIRECTORY_REALDWG_1,REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX_REALDWG_1,REALDWG_OUT_COORDINATE_SYSTEM_STORAGE_REALDWG_1,REALDWG_OUT_PURGE_REALDWG_1,REALDWG_OUT_PREFER_DONUTS_AS_HATCHES_REALDWG_1,REALDWG_OUT_INSERTION_SCALE_UNITS_REALDWG_1
+GUI IGNORE DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_DIMENSION_GROUP_ESRISHAPE_1,ESRISHAPE_OUT_SHAPE_WRT_ADV_PARM_GROUP_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,_MEASURES_AS_Z_ESRISHAPE_1,DestDataset_FILEGDB_1,FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1,FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1,DestDataset_ACAD_1,APPEND_TO_TEMPLATEFILE_ACAD_1,PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_ACAD_1,ACAD_OUT_DEFAULT_ATTR_STORAGE_ACAD_1,ACAD_OUT_VERSION_ACAD_1,ACAD_OUT_TEMPLATEFILE_ACAD_1,ACAD_OUT_TEMPLATE_GROUP_ACAD_1,ACAD_OUT_CAD_WRT_ADV_PARM_GROUP_ACAD_1,ACAD_OUT_DEFAULT_APPLICATION_ACAD_1,ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_ACAD_1,ACAD_OUT_SHAPE_DIRECTORY_ACAD_1,ACAD_OUT_CREATED_BLOCK_NAME_PREFIX_ACAD_1,ACAD_OUT_AUDIT_AND_FIX_ACAD_1,ACAD_OUT_COORDINATE_SYSTEM_STORAGE_ACAD_1,ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION_ACAD_1,ACAD_OUT_PURGE_ACAD_1,ACAD_OUT_INSERTION_SCALE_UNITS_ACAD_1,ACAD_OUT_WRITE_THUMBNAIL_IMAGE_ACAD_1,ACAD_OUT_PREFER_DONUTS_AS_HATCHES_ACAD_1
 DEFAULT_MACRO Perimeter POLYGON((6.62109005603303 46.51536036165384,6.623120852165147 46.51549642732441,6.624988144606661 46.514808141964856,6.631069256716269 46.51335375210718,6.633663816944302 46.51500498298585,6.6346635513963355 46.5174410136014,6.634317903072555 46.51965159759916,6.630126770513636 46.520175062789534,6.624571816554757 46.52168716079147,6.621892888161173 46.52173537632152,6.621992478963257 46.52031920938455,6.617510362580848 46.51939624209985,6.617601866780929 46.518519785202706,6.6183731545887765 46.51793162269317,6.618552647567806 46.51640808253532,6.62109005603303 46.51536036165384))
 GUI TEXT Perimeter Polygone d'export (au format WKT) :
 DEFAULT_MACRO Product 6f5afa6b-7f0a-ec54-a9a7-44f004d6edda
 GUI TEXT Product Identifiant du produit :
-DEFAULT_MACRO FolderOut C:\temp\_extract\_dev_temp
+DEFAULT_MACRO FolderOut C:\temp\_extract\output
 GUI DIRNAME FolderOut Répertoire de sortie :
 DEFAULT_MACRO Parameters {"FORMAT":"DXF","PROJECTION":"SWITZERLAND","SELECTION":"PASS_THROUGH","GROUPMENT":"YES","RAISON":"AVARIE","Communes":"","REMARK":"Parcelle N°3658 à Clarens \u0022Montreux\u0022"}
 GUI OPTIONAL TEXT Parameters Liste dynamique de paramètres au format json:
-DEFAULT_MACRO OrderLabel 259547
+DEFAULT_MACRO OrderLabel 259546
 GUI TEXT OrderLabel Libellé de la commande :
 DEFAULT_MACRO Request 365
 GUI TEXT Request Identifiant de la requête :
@@ -2382,8 +2353,8 @@ DEFAULT_MACRO Client 2edc1a50-4837-4c44-1519-3ebc85f14588
 GUI TEXT Client Identifiant du client :
 DEFAULT_MACRO Organism 4a142a5d-16bf-84d4-111f-57d76c834493
 GUI TEXT Organism Identifiant de l'organisme :
-DEFAULT_MACRO DestDataset_REALDWG C:\temp\output.dxf
-GUI FILENAME DestDataset_REALDWG DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD RealDWG File:
+DEFAULT_MACRO DestDataset_ACAD $(FolderOut)/$(OrderLabel).dxf
+GUI FILENAME DestDataset_ACAD DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD DWG/DXF File:
 INCLUDE [ if {{$(Perimeter)} == {}} { puts_real {Parameter 'Perimeter' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Product)} == {}} { puts_real {Parameter 'Product' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(FolderOut)} == {}} { puts_real {Parameter 'FolderOut' must be given a value.}; exit 1; }; ]
@@ -2391,7 +2362,7 @@ INCLUDE [ if {{$(OrderLabel)} == {}} { puts_real {Parameter 'OrderLabel' must be
 INCLUDE [ if {{$(Request)} == {}} { puts_real {Parameter 'Request' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Client)} == {}} { puts_real {Parameter 'Client' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(Organism)} == {}} { puts_real {Parameter 'Organism' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(DestDataset_REALDWG)} == {}} { puts_real {Parameter 'DestDataset_REALDWG' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_ACAD)} == {}} { puts_real {Parameter 'DestDataset_ACAD' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE NULL
@@ -2405,8 +2376,8 @@ MULTI_WRITER_TYPE{0} ESRISHAPE
 MULTI_WRITER_KEYWORD{0} ESRISHAPE_1
 MULTI_WRITER_TYPE{1} FILEGDB
 MULTI_WRITER_KEYWORD{1} FILEGDB_1
-MULTI_WRITER_TYPE{2} REALDWG
-MULTI_WRITER_KEYWORD{2} REALDWG_1
+MULTI_WRITER_TYPE{2} ACAD
+MULTI_WRITER_KEYWORD{2} ACAD_1
 #! END_WB_HEADER
 
 #! START_WB_HEADER
@@ -2508,13 +2479,13 @@ INCLUDE [ if {"$(DestDataset)" != ""} {                          \
  } ]
 #! END_WB_HEADER
 #! START_DEST_HEADER FILEGDB FILEGDB_1
-DEFAULT_MACRO DestDataset_FILEGDB_1 $(FolderOut)\output
+DEFAULT_MACRO DestDataset_FILEGDB_1 $(FolderOut)
 FILEGDB_1_DATASET "$(DestDataset_FILEGDB_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "REALDWG_1"
+MACRO WB_KEYWORD "ACAD_1"
 #! END_WB_HEADER
-#! START_DEST_HEADER REALDWG REALDWG_1
+#! START_DEST_HEADER ACAD ACAD_1
 # ============================================================================
 # The following GUI lines prompt for a destination file which is used
 # as the output when the destination of the translation is DWG/DXF
@@ -2522,90 +2493,101 @@ MACRO WB_KEYWORD "REALDWG_1"
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_REALDWG_1 $(DestDataset)}         \
+ puts {DEFAULT_MACRO DestDataset_ACAD_1 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER REALDWG REALDWG_1
-DEFAULT_MACRO DestDataset_REALDWG_1 $(DestDataset_REALDWG)
-GUI FILENAME DestDataset_REALDWG_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD RealDWG File:
-REALDWG_1_OUTPUT_DEFINED_ATTRS_ONLY YES
-DEFAULT_MACRO APPEND_TO_TEMPLATEFILE_REALDWG_1 no
-REALDWG_1_APPEND_TO_TEMPLATEFILE $(APPEND_TO_TEMPLATEFILE_REALDWG_1)
-GUI CHOICE APPEND_TO_TEMPLATEFILE_REALDWG_1 yes%no Preserve Template File Model Space Data:
-DEFAULT_MACRO PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_REALDWG_1 yes
-REALDWG_1_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES $(PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_REALDWG_1)
-GUI CHOICE PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_REALDWG_1 yes%no Preserve Template File Paper Space Data:
-DEFAULT_MACRO DEFAULT_ATTR_STORAGE_MACRO_REALDWG_1 external_attributes
+#! START_DEST_HEADER ACAD ACAD_1
+DEFAULT_MACRO DestDataset_ACAD_1 $(DestDataset_ACAD)
+GUI FILENAME DestDataset_ACAD_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|All_Files|* Destination Autodesk AutoCAD DWG/DXF File:
+ACAD_1_OUTPUT_DEFINED_ATTRS_ONLY YES
+DEFAULT_MACRO APPEND_TO_TEMPLATEFILE_ACAD_1 no
+ACAD_1_APPEND_TO_TEMPLATEFILE $(APPEND_TO_TEMPLATEFILE_ACAD_1)
+GUI CHOICE APPEND_TO_TEMPLATEFILE_ACAD_1 yes%no Preserve Template File Model Space Data:
+DEFAULT_MACRO PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_ACAD_1 yes
+ACAD_1_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES $(PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_ACAD_1)
+GUI CHOICE PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES_ACAD_1 yes%no Preserve Template File Paper Space Data:
+DEFAULT_MACRO DEFAULT_ATTR_STORAGE_MACRO_ACAD_1 external_attributes
 # ============================================================================
 # Assume a default of not storing attributes with the entities.
 # Valid choices for _DEFAULT_ATTR_STORAGE are:
 #         extended_entity_data insert_attributes external_attributes
 # This is now a default of external attributes for both mapping files and workbench
-DEFAULT_MACRO REALDWG_OUT_DEFAULT_ATTR_STORAGE_REALDWG_1 external_attributes
-REALDWG_1_DEFAULT_ATTR_STORAGE "$(REALDWG_OUT_DEFAULT_ATTR_STORAGE_REALDWG_1)"
-GUI RADIO_GROUP REALDWG_OUT_DEFAULT_ATTR_STORAGE_REALDWG_1 "\"Extended Entity Data\",extended_entity_data"%Inserts,insert_attributes%Limited,external_attributes Attribute Output
+DEFAULT_MACRO ACAD_OUT_DEFAULT_ATTR_STORAGE_ACAD_1 external_attributes
+ACAD_1_DEFAULT_ATTR_STORAGE "$(ACAD_OUT_DEFAULT_ATTR_STORAGE_ACAD_1)"
+GUI RADIO_GROUP ACAD_OUT_DEFAULT_ATTR_STORAGE_ACAD_1 "\"Extended Entity Data\",extended_entity_data"%Inserts,insert_attributes%Limited,external_attributes Attribute Output
 # ============================================================================
 # ============================================================================
 # The version of AutoCAD file which is to be output.
-DEFAULT_MACRO REALDWG_OUT_VERSION_REALDWG_1 Release2013
-REALDWG_1_VERSION "$(REALDWG_OUT_VERSION_REALDWG_1)"
-GUI CHOICE REALDWG_OUT_VERSION_REALDWG_1 Release14%Release2000%Release2004%Release2007%Release2010%Release2013%Release2018%same_as_template AutoCAD Version:
+DEFAULT_MACRO ACAD_OUT_VERSION_ACAD_1 Release2013
+ACAD_1_VERSION "$(ACAD_OUT_VERSION_ACAD_1)"
+GUI CHOICE ACAD_OUT_VERSION_ACAD_1 Release12%Release13%Release14%Release2000%Release2004%Release2007%Release2010%Release2013%same_as_template AutoCAD Version:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_TEMPLATEFILE_REALDWG_1 
-REALDWG_1_TEMPLATEFILE "$(REALDWG_OUT_TEMPLATEFILE_REALDWG_1)"
-GUI OPTIONAL FILENAME_MUSTEXIST REALDWG_OUT_TEMPLATEFILE_REALDWG_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|Template_FILES(*.dwt)|*.dwt|All_files(*)|* Template File:
-DEFAULT_MACRO REALDWG_OUT_TEMPLATE_GROUP_REALDWG_1 
-GUI OPTIONAL DISCLOSUREGROUP REALDWG_OUT_TEMPLATE_GROUP_REALDWG_1 FME_DISCLOSURE_OPEN%REALDWG_OUT_TEMPLATEFILE_REALDWG_1%REALDWG_OUT_APPEND_TO_TEMPLATEFILE_REALDWG_1%REALDWG_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES Template File
+DEFAULT_MACRO ACAD_OUT_TEMPLATEFILE_ACAD_1 
+ACAD_1_TEMPLATEFILE "$(ACAD_OUT_TEMPLATEFILE_ACAD_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST ACAD_OUT_TEMPLATEFILE_ACAD_1 DWG_Files(*.dwg)/DXF_Files(*.dxf)|*.dwg;*.dxf|DWG_Files(*.dwg)|*.dwg|DXF_Files(*.dxf)|*.dxf|Template_FILES(*.dwt)|*.dwt|All_files(*)|* Template File:
+DEFAULT_MACRO ACAD_OUT_TEMPLATE_GROUP_ACAD_1 
+GUI OPTIONAL DISCLOSUREGROUP ACAD_OUT_TEMPLATE_GROUP_ACAD_1 FME_DISCLOSURE_OPEN%ACAD_OUT_TEMPLATEFILE_ACAD_1%ACAD_OUT_APPEND_TO_TEMPLATEFILE_ACAD_1%ACAD_OUT_PRESERVE_TEMPLATE_PAPER_SPACE_ENTITIES Template File
 # ============================================================================
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_CAD_WRT_ADV_PARM_GROUP_REALDWG_1 
-GUI OPTIONAL DISCLOSUREGROUP REALDWG_OUT_CAD_WRT_ADV_PARM_GROUP_REALDWG_1 REALDWG_OUT_DEFAULT_APPLICATION_REALDWG_1%REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY_REALDWG_1%REALDWG_OUT_SHAPE_DIRECTORY_REALDWG_1%REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX_REALDWG_1%REALDWG_OUT_COORDINATE_SYSTEM_STORAGE_REALDWG_1%REALDWG_OUT_PURGE_REALDWG_1%REALDWG_OUT_PREFER_DONUTS_AS_HATCHES_REALDWG_1%REALDWG_OUT_INSERTION_SCALE_UNITS_REALDWG_1 Advanced
+DEFAULT_MACRO ACAD_OUT_CAD_WRT_ADV_PARM_GROUP_ACAD_1 
+GUI OPTIONAL DISCLOSUREGROUP ACAD_OUT_CAD_WRT_ADV_PARM_GROUP_ACAD_1 ACAD_OUT_DEFAULT_APPLICATION_ACAD_1%ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_ACAD_1%ACAD_OUT_SHAPE_DIRECTORY_ACAD_1%ACAD_OUT_CREATED_BLOCK_NAME_PREFIX_ACAD_1%ACAD_OUT_AUDIT_AND_FIX_ACAD_1%ACAD_OUT_COORDINATE_SYSTEM_STORAGE_ACAD_1%ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION_ACAD_1%ACAD_OUT_PURGE_ACAD_1%ACAD_OUT_INSERTION_SCALE_UNITS_ACAD_1%ACAD_OUT_WRITE_THUMBNAIL_IMAGE_ACAD_1%ACAD_OUT_PREFER_DONUTS_AS_HATCHES_ACAD_1 Advanced
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_DEFAULT_APPLICATION_REALDWG_1 
-REALDWG_1_DEFAULT_APPLICATION "$(REALDWG_OUT_DEFAULT_APPLICATION_REALDWG_1)"
-GUI OPTIONAL TEXT REALDWG_OUT_DEFAULT_APPLICATION_REALDWG_1 Default Application Name:
+DEFAULT_MACRO ACAD_OUT_DEFAULT_APPLICATION_ACAD_1 
+ACAD_1_DEFAULT_APPLICATION "$(ACAD_OUT_DEFAULT_APPLICATION_ACAD_1)"
+GUI OPTIONAL TEXT ACAD_OUT_DEFAULT_APPLICATION_ACAD_1 Default Application Name:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY_REALDWG_1 yes
-REALDWG_1_OUTPUT_DEFINED_ATTRS_ONLY "$(REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY_REALDWG_1)"
-GUI CHOICE REALDWG_OUT_OUTPUT_DEFINED_ATTRS_ONLY_REALDWG_1 yes%no Output Defined Attributes Only:
+DEFAULT_MACRO ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_ACAD_1 yes
+ACAD_1_OUTPUT_DEFINED_ATTRS_ONLY "$(ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_ACAD_1)"
+GUI CHOICE ACAD_OUT_OUTPUT_DEFINED_ATTRS_ONLY_ACAD_1 yes%no Output Defined Attributes Only:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_SHAPE_DIRECTORY_REALDWG_1 
-REALDWG_1_SHAPE_DIRECTORY "$(REALDWG_OUT_SHAPE_DIRECTORY_REALDWG_1)"
-GUI OPTIONAL DIRNAME REALDWG_OUT_SHAPE_DIRECTORY_REALDWG_1 AutoCAD Shape File Folder:
+DEFAULT_MACRO ACAD_OUT_SHAPE_DIRECTORY_ACAD_1 
+ACAD_1_SHAPE_DIRECTORY "$(ACAD_OUT_SHAPE_DIRECTORY_ACAD_1)"
+GUI OPTIONAL DIRNAME ACAD_OUT_SHAPE_DIRECTORY_ACAD_1 AutoCAD Shape File Folder:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX_REALDWG_1 
-REALDWG_1_CREATED_BLOCK_NAME_PREFIX "$(REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX_REALDWG_1)"
-GUI OPTIONAL TEXT REALDWG_OUT_CREATED_BLOCK_NAME_PREFIX_REALDWG_1 Created Block Name Prefix:
+DEFAULT_MACRO ACAD_OUT_CREATED_BLOCK_NAME_PREFIX_ACAD_1 
+ACAD_1_CREATED_BLOCK_NAME_PREFIX "$(ACAD_OUT_CREATED_BLOCK_NAME_PREFIX_ACAD_1)"
+GUI OPTIONAL TEXT ACAD_OUT_CREATED_BLOCK_NAME_PREFIX_ACAD_1 Created Block Name Prefix:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_COORDINATE_SYSTEM_STORAGE_REALDWG_1 NONE
-REALDWG_1_COORDINATE_SYSTEM_STORAGE "$(REALDWG_OUT_COORDINATE_SYSTEM_STORAGE_REALDWG_1)"
-GUI CHOICE REALDWG_OUT_COORDINATE_SYSTEM_STORAGE_REALDWG_1 NONE%EXTERNAL_PRJ%INTERNAL_WKT%EXTERNAL_AND_INTERNAL Coordinate System Storage:
+DEFAULT_MACRO ACAD_OUT_AUDIT_AND_FIX_ACAD_1 yes
+ACAD_1_AUDIT_AND_FIX "$(ACAD_OUT_AUDIT_AND_FIX_ACAD_1)"
+GUI CHOICE ACAD_OUT_AUDIT_AND_FIX_ACAD_1 yes%no Audit And Fix Errors:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_PURGE_REALDWG_1 no
-REALDWG_1_PURGE "$(REALDWG_OUT_PURGE_REALDWG_1)"
-GUI CHOICE REALDWG_OUT_PURGE_REALDWG_1 yes%no Purge Unused Objects:
+DEFAULT_MACRO ACAD_OUT_COORDINATE_SYSTEM_STORAGE_ACAD_1 NONE
+ACAD_1_COORDINATE_SYSTEM_STORAGE "$(ACAD_OUT_COORDINATE_SYSTEM_STORAGE_ACAD_1)"
+# I'd like to use the below line with nicer usernames, but
+# there's no way to do this currently, so I must use the below.
+# Well, I accomplished this by seeding the GUI prompts localization with
+# the nicer alternatives
+# GUI CHOICE COORDINATE_SYSTEM_STORAGE None%"External PRJ"%"Internal ESRI WKT"%Both Coordinate System Storage:
+GUI CHOICE ACAD_OUT_COORDINATE_SYSTEM_STORAGE_ACAD_1 NONE%EXTERNAL_PRJ%INTERNAL_WKT%EXTERNAL_AND_INTERNAL Coordinate System Storage:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_PREFER_DONUTS_AS_HATCHES_REALDWG_1 no
-REALDWG_1_PREFER_DONUTS_AS_HATCHES "$(REALDWG_OUT_PREFER_DONUTS_AS_HATCHES_REALDWG_1)"
-GUI CHOICE REALDWG_OUT_PREFER_DONUTS_AS_HATCHES_REALDWG_1 yes%no Prefer writing donuts as hatches:
+DEFAULT_MACRO ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION_ACAD_1 no
+ACAD_1_USE_BLOCK_NAME_FOR_CREATION "$(ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION_ACAD_1)"
+GUI CHOICE ACAD_OUT_USE_BLOCK_NAME_FOR_CREATION_ACAD_1 yes%no Use the block name to create blocks:
 # ============================================================================
-DEFAULT_MACRO REALDWG_OUT_INSERTION_SCALE_UNITS_REALDWG_1 
-REALDWG_1_INSERTION_SCALE_UNITS "$(REALDWG_OUT_INSERTION_SCALE_UNITS_REALDWG_1)"
-GUI OPTIONAL CHOICE REALDWG_OUT_INSERTION_SCALE_UNITS_REALDWG_1 UNDEFINED%INCHES%FEET%MILES%MILLIMETERS%CENTIMETERS%METERS%KILOMETERS%MICROINCHES%MILS%YARDS%ANGSTROMS%NANOMETERS%MICRONS%DECIMETERS%DEKAMETERS%HECTOMETERS%GIGAMETERS%ASTRONOMICAL%LIGHTYEARS%PARSECS Insertion Scale Units:
+DEFAULT_MACRO ACAD_OUT_PURGE_ACAD_1 no
+ACAD_1_PURGE "$(ACAD_OUT_PURGE_ACAD_1)"
+GUI CHOICE ACAD_OUT_PURGE_ACAD_1 yes%no Purge Unused Objects:
+# ============================================================================
+DEFAULT_MACRO ACAD_OUT_INSERTION_SCALE_UNITS_ACAD_1 
+ACAD_1_INSERTION_SCALE_UNITS "$(ACAD_OUT_INSERTION_SCALE_UNITS_ACAD_1)"
+GUI OPTIONAL CHOICE ACAD_OUT_INSERTION_SCALE_UNITS_ACAD_1 UNDEFINED%INCHES%FEET%MILES%MILLIMETERS%CENTIMETERS%METERS%KILOMETERS%MICROINCHES%MILS%YARDS%ANGSTROMS%NANOMETERS%MICRONS%DECIMETERS%DEKAMETERS%HECTOMETERS%GIGAMETERS%ASTRONOMICAL%LIGHTYEARS%PARSECS Insertion Scale Units:
+# ============================================================================
+DEFAULT_MACRO ACAD_OUT_WRITE_THUMBNAIL_IMAGE_ACAD_1 no
+ACAD_1_WRITE_THUMBNAIL_IMAGE "$(ACAD_OUT_WRITE_THUMBNAIL_IMAGE_ACAD_1)"
+GUI CHOICE ACAD_OUT_WRITE_THUMBNAIL_IMAGE_ACAD_1 yes%no Write Thumbnail Image:
+# ============================================================================
+DEFAULT_MACRO ACAD_OUT_PREFER_DONUTS_AS_HATCHES_ACAD_1 no
+ACAD_1_PREFER_DONUTS_AS_HATCHES "$(ACAD_OUT_PREFER_DONUTS_AS_HATCHES_ACAD_1)"
+GUI CHOICE ACAD_OUT_PREFER_DONUTS_AS_HATCHES_ACAD_1 yes%no Prefer writing donuts as hatches:
 # ============================================================================
 # Opt in for destination dataset type vs format type validation
-DEFAULT_MACRO REALDWG_OUT_DESTINATION_DATASETTYPE_VALIDATION_REALDWG_1 Yes
-REALDWG_1_DESTINATION_DATASETTYPE_VALIDATION "$(REALDWG_OUT_DESTINATION_DATASETTYPE_VALIDATION_REALDWG_1)"
+DEFAULT_MACRO ACAD_OUT_DESTINATION_DATASETTYPE_VALIDATION_ACAD_1 Yes
+ACAD_1_DESTINATION_DATASETTYPE_VALIDATION "$(ACAD_OUT_DESTINATION_DATASETTYPE_VALIDATION_ACAD_1)"
 # ============================================================================
 # Bring in macros for all the autocad colors
 INCLUDE "$(FME_HOME)/metafile/autocadColors.fmi"
-# ============================================================================
-# Not yet implemented
-#DEFAULT_MACRO _AUDIT_AND_FIX no
-#DEFAULT_MACRO _AUDIT_AND_FIX
-#GUI CHOICE REALDWG_OUT_AUDIT_AND_FIX yes%no Audit And Fix Errors:
-#REALDWG_AUDIT_AND_FIX $(REALDWG_OUT_AUDIT_AND_FIX_REALDWG_1)
-REALDWG_1_DATASET "$(DestDataset_REALDWG_1)"
+ACAD_1_DATASET "$(DestDataset_ACAD_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
@@ -2623,7 +2605,7 @@ FME_STROKE_MAX_DEVIATION 0
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_FILEGDB_1 FILEGDB_1
-DEFAULT_MACRO DATASET_KEYWORD_REALDWG_1 REALDWG_1
+DEFAULT_MACRO DATASET_KEYWORD_ACAD_1 ACAD_1
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
@@ -2781,8 +2763,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce8_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce8_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce8_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce8_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce8_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce16_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce16_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce16_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce16_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_1692be01_4c8b_436e_8f7e_46bb8df399ce16_targetFeatureType)
 
 # -------------------------------------------------------------------------
 
@@ -2790,7 +2772,7 @@ FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC FeatureReader_2_<SCHEMA>_1_g9iM3rcPP7w= TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Shapefile1<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Shapefile1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Shapefile1<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_SHP TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Shapefile1<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Shapefile1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Shapefile1<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_DXF TO REALDWG __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Layer1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>Layer1<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_DWG TO REALDWG __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Layer1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>Layer1<closeparen> GEOMETRY    ROUTE FME_GENERIC Deaggregator_DEAGGREGATED TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY    ROUTE FME_GENERIC GeometryFilter_<UNFILTERED> TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureReader_2_<SCHEMA>_0_vfoepDPAsdU= TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC FeatureReader_2_<SCHEMA>_1_g9iM3rcPP7w= TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Shapefile1<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Shapefile1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Shapefile1<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_SHP TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Shapefile1<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Shapefile1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Shapefile1<closeparen> GEOMETRY    ROUTE FME_GENERIC Deaggregator_DEAGGREGATED TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY    ROUTE FME_GENERIC GeometryFilter_<UNFILTERED> TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY    ROUTE FME_GENERIC FeatureReader_2_<SCHEMA>_0_vfoepDPAsdU= TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Products<closeparen>,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Products<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt>_<lt>at<gt>Value<lt>openparen<gt>PROJECTION_NOM<lt>closeparen<gt>_$(OrderLabel$encode$encode)<comma>Products<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_DWG TO ACAD __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Layer1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>Layer1<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeFilter_DXF TO ACAD __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>Layer1<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>fme_feature_type<lt>closeparen<gt><comma>Layer1<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -2800,4 +2782,4 @@ ESRISHAPE_1_DEF_TEMPLATE Shapefile1   SHAPE_GEOMETRY               {FME_GEN_GEOM
 # -------------------------------------------------------------------------
 FILEGDB_1_DEF_TEMPLATE Products   filegdb_type                 {FME_GEN_GEOMETRY}   filegdb_drop_table           ""   filegdb_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   filegdb_object_id_field      OBJECTID   filegdb_object_id_alias      OBJECTID   filegdb_shape_field          SHAPE   filegdb_shape_alias          SHAPE   filegdb_config_keyword       DEFAULTS   filegdb_xy_tolerance         ""   filegdb_z_tolerance          0.001   filegdb_m_tolerance          0.001   fme_schema_readers           " "   fme_schema_feature_first     Yes   fme_schema_name_expression   @EvaluateExpression(FDIV,STRING,<at>Value<openparen>fme_feature_type<closeparen>,<at>Value<openparen>fme_feature_type<closeparen>_<at>Value<openparen>PROJECTION_NOM<closeparen>_$(OrderLabel$encode))
 # -------------------------------------------------------------------------
-REALDWG_1_DEF Layer1   autocad_color                10   autocad_linetype             CONTINUOUS   autocad_layer_frozen         No   autocad_layer_hidden         No   autocad_layer_locked         No   autocad_layer_on             Yes   autocad_layer_plottable      Yes   autocad_layer_desc           ""   PROJECTION_EPSG              char(200)   PROJECTION_NOM               char(200)   FORMAT                       char(200)
+ACAD_1_DEF Layer1   autocad_color                10   autocad_linetype             CONTINUOUS   autocad_layer_frozen         No   autocad_layer_hidden         No   autocad_layer_locked         No   autocad_layer_on             Yes   autocad_layer_plottable      Yes   autocad_layer_desc           ""   PROJECTION_EPSG              char(200)   PROJECTION_NOM               char(200)   FORMAT                       char(200)
